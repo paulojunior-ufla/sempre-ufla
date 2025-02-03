@@ -1,7 +1,7 @@
 .rodape{
     position: relative;
     background-color: #fff;
-    height: 300px;
+    height: 250px;
     width: 100%;
     display: flex; /* Habilita o uso do Flexbox */
     justify-content: center; /* Centraliza as informações horizontalmente */

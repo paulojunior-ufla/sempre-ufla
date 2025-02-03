@@ -18,7 +18,7 @@ function Navbar (){
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav justify-content-end w-100">
-                        <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(Página atual)</span></a>
+                        <a class="nav-item nav-link active" href="#">HOME <span class="sr-only"></span></a>
                         <a class="nav-item nav-link" href="#">FERRAMENTAS E BENEFÍCIOS</a>
                         <a class="nav-item nav-link" href="#">DÚVIDAS</a>
                         <a class="nav-item nav-link" href="#">ENTRAR</a>
