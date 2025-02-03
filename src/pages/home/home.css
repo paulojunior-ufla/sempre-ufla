@@ -83,6 +83,10 @@
         font-size: 17px;
         text-decoration: underline;
     }
+    .pageBeneficios:hover{
+        text-decoration: none;
+        font-weight: 450;
+    }
     .carrosselBeneficios{
         display: flex;
         align-items: center;
@@ -92,7 +96,7 @@
     }
     .carrosselBeneficios svg{
         fill: #007c34;
-        width: 200px;
+        width: 220px;
         height: auto;
         padding: 50px;
     }
