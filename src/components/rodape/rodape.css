@@ -1,0 +1,65 @@
+.rodape{
+    position: relative;
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+    display: flex; /* Habilita o uso do Flexbox */
+    justify-content: center; /* Centraliza as informações horizontalmente */
+    align-items: center; /* Centraliza as informações verticalmente */
+}
+
+.informacoes{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.redesSociais, .explorar, .contato{
+    color: #004B80;
+    display: flex;
+    flex-direction: column;
+}
+.redesSociais h3, .explorar h3, .contato h3{
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+.redesSociais h3, .contato h3{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #00943E;
+}
+.explorar h3{
+    margin-bottom: 20px;
+    color: #00943E;
+}
+.explorar a{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.explorar a:hover{
+    transform: scale(1.02);
+}
+.redesSociais{
+    text-align: right;
+    margin-left: 70px;
+}
+.explorar{
+    text-align: center;
+}
+.contato{
+    text-align: left;
+    margin-right: 70px;
+}
+.creditos {
+    color: #004B80;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+}
