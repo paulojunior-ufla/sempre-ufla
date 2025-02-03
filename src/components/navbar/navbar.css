@@ -1,0 +1,39 @@
+.navbar{
+    height: 90px;
+    background-color: #9e7575;
+    font-family: montserrat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+    .navbar-brand{
+        width: 8rem;
+        height: auto;
+        margin-right: 23px;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        color: #004B80;
+        font-weight: 450;
+        font-size: 16px;
+        padding: 10px;
+        transition: 0.2s;
+    }
+    .navbar-light .navbar-nav .nav-link:last-child{
+        color: #00943E;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: #858d91;
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        color: #004B80;
+    }
+    @media(max-width: 992px){
+        .navbar-brand img{
+            width: 4rem;
+            height: auto;
+        }
+    }
