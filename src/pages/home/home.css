@@ -1,0 +1,177 @@
+.paginaHome{
+    font-family: Montserrat;
+    
+    /*///////////SEÇÃO BOAS VINDAS/////////////*/
+    .secaoBoasVindas{
+        background-image: url(../../assets/fotodecapelos.png);
+        background-size: cover;
+        margin-left: -5px;
+        height: 650px;
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #logoUfla{
+        margin-top: 10vh;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: auto;
+    }
+    .fraseDeBoasVindas{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 34px;
+        word-wrap: break-word;
+        margin-right: min(3px);
+        margin-left: min(3px);
+        font-weight: 450;
+    }
+    .bemVindo{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .secaoBoasVindas .entrar{
+        margin-top: 30px;
+        width: 150px;
+        height: 55px;
+        font-size: 20px;
+        border-radius: 10px;
+        border-color: transparent;
+        background-color: #00943E;
+        color: #fff;
+        transition: 0.4s;
+    }
+    .entrar:hover{
+        transform: scale(1.1);
+    }
+/*///////////SEÇÃO FERRAMENTAS E BENEFÍCIOS/////////////*/
+    .secaoBeneficios{
+        background-color: #fff;
+        position:relative;
+        height: 550px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 
+        inset 0px -5px 10px -3px rgba(0, 0, 0, 0.2),
+        inset 0px 5px 10px -3px rgba(0, 0, 0, 0.2);
+    }
+    .explicacao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 120px;
+        width: 50%;
+    }
+    .tituloFerramentas{
+        color: #00943E;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .explicacaoBeneficios{
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .pageBeneficios{
+        color: #004B80;
+        margin-top: 40px;
+        font-size: 17px;
+        text-decoration: underline;
+    }
+/*///////////SEÇÃO AJUDA A UNIVERSIDADE/////////////*/
+
+    .secaoAjudaUniversidade{
+        background-color: #004B80;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color:#fff;
+        position:relative;
+        font-size:1.8em;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        z-index: 2;
+    }
+    .secaoAjudaUniversidade h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .titulo {
+        font-weight: 600;
+        margin-bottom: -30px; 
+        display: block;
+    }
+    .perfil, .questionario, .email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 130px;
+        margin-right: 130px;
+        gap: 40px;
+    }
+    .perfil, .questionario {
+        margin-top: 75px;
+        padding-bottom: 45px;
+        border-bottom: 2px dotted #00943E;
+    }
+    .questionario {
+        text-align: right;
+        margin-top: 65px;
+    }
+    .email {
+        margin-top: 65px;
+    }    
+    /*///////////SEÇÃO INTEGRAR/////////////*/
+    .secaoIntegrar{
+        background-image: url("../../assets/imagemIntegrar.png");
+        background-size: cover;
+        margin-left: -5px;
+        margin-top: -40px;
+        height: 550px;
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 1;
+    }
+    .secaoIntegrar h1{
+        color: #fff;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .botoes{
+        display: flex;
+        margin-top: 80px;
+        gap: 50px;
+    }
+    .botoes .entrar, .duvidas{
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 10px;
+        border-color: transparent;
+        transition: 0.4s;
+        height: 55px;
+    }
+    .botoes .entrar{
+        background-color: #004B80;
+        color: #fff;
+        width: 150px;
+    }
+    .botoes .duvidas{
+        background-color: #fff;
+        color: #004B80;
+        width: 170px;
+    }
+    .botoes .entrar:hover,.duvidas:hover{
+        transform: scale(1.1);
+    }
+
+}
