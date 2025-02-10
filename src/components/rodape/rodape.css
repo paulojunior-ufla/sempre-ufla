@@ -73,31 +73,40 @@
         overflow: hidden;
         height: auto;
     }
+    .informacoes{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        font-size: 16px;
+    }
+    .redesSociais,.contato{
+        text-align: left;
+        margin-left: 40px;
+        margin-right: initial;
+    }
+    .redesSociais p, .contato p {
+        margin-top: -6px;
+        margin-bottom: 6px;
+    }
+    .redesSociais h3, .contato h3{
+        padding-bottom: 2px;
+        font-size: 30px;
+        border-bottom: none;
+    }
+    .redesSociais h3::after, .contato h3::after {
+        content: "";
+        width:82vw;
+        height: 1px;
+        background-color: #00943E;
+    }
     .creditos{
         margin-bottom: -15px;
         font-size: 2.2vw;
     }
-    .informacoes{
-        font-size: 15px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .redesSociais{
-        text-align: left;
-        margin-left: 10px;
-    }
-    .contato{
-        text-align: right;
-        margin-right: 10px;
-    }
-    .redesSociais h3, .contato h3{
-        font-size: 30px;
-        font-weight: 600;
-    }
-    @media (max-width: 280px) {
-        .secaoBoasVindas {
-            height: min(1000px);
-        }
-    }
+    
 }
 
