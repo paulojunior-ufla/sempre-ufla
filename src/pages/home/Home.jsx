@@ -11,7 +11,6 @@ import beneficioBiblioteca from "../../assets/beneficioBiblioteca.svg"
 import Navbar from "../../components/navbar/Navbar.jsx"
 import Rodape from "../../components/rodape/Rodape.jsx"
 import { Carousel } from "react-bootstrap";
-//import Carrosselbeneficios from "../../components/Carrosselbeneficios.jsx"
 import "./home.css"
 
 function Home(){
