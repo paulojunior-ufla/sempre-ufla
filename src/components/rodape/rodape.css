@@ -3,9 +3,8 @@
     background-color: #fff;
     height: 250px;
     width: 100%;
-    display: flex; /* Habilita o uso do Flexbox */
-    justify-content: center; /* Centraliza as informações horizontalmente */
-    align-items: center; /* Centraliza as informações verticalmente */
+    display: flex;
+    align-items: center;
 }
 
 .informacoes{
@@ -62,4 +61,43 @@
     left: 50%;
     transform: translateX(-50%);
     font-size: 13px;
+    white-space: nowrap;
 }
+@media(max-width:778px){
+    .explorar{
+        display: none;
+    }
+}
+@media (max-width:540px){
+    .rodape{
+        overflow: hidden;
+        height: auto;
+    }
+    .creditos{
+        margin-bottom: -15px;
+        font-size: 2.2vw;
+    }
+    .informacoes{
+        font-size: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .redesSociais{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .contato{
+        text-align: right;
+        margin-right: 10px;
+    }
+    .redesSociais h3, .contato h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    @media (max-width: 280px) {
+        .secaoBoasVindas {
+            height: min(1000px);
+        }
+    }
+}
+
