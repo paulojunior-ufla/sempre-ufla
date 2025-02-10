@@ -36,4 +36,13 @@
             width: 4rem;
             height: auto;
         }
+        .navbar-collapse {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            text-align: center;  
+        }
+             
     }
