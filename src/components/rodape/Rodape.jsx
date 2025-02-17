@@ -12,7 +12,7 @@ function Rodape(){
                 </div>
                 <div className="explorar">
                     <h3>Explorar</h3>
-                    <a href="#">Ferramentas e benéficios</a>
+                    <a href="/ferramentas-e-beneficios">Ferramentas e benéficios</a>
                     <a href="#">Dúvidas</a>
                     <a href="LINK DA PLATAFORMA NO SIG">Entrar</a>
                 </div>
