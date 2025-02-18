@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Carousel } from "react-bootstrap";
 import logoUflaBranco from "../../assets/LogoUflaMonocromatica.png"
 import fotoCapelos from "../../assets/fotodecapelos.png"
 import iconeInfos from "../../assets/iconeInfosVerde.svg"
@@ -10,7 +12,6 @@ import beneficioEmail from "../../assets/beneficioEmail.svg"
 import beneficioBiblioteca from "../../assets/beneficioBiblioteca.svg"
 import Navbar from "../../components/navbar/Navbar.jsx"
 import Rodape from "../../components/rodape/Rodape.jsx"
-import { Carousel } from "react-bootstrap";
 import "./home.css"
 
 function Home(){
@@ -35,7 +36,9 @@ function Home(){
                         Ao cadastrar em nossa plataforma aproveite os benefícios exclusivos para egressos, 
                         como acesso a recursos da universidade e ferramentas que facilitam sua jornada.
                     </p>
-                    <a href="/ferramentas-e-beneficios" className="pageBeneficios">CONFIRA AS FERRAMENTAS E BENEFÍCIOS</a>
+                    <Link to="/ferramentas-e-beneficios" className="pageBeneficios">
+                        CONFIRA AS FERRAMENTAS E BENEFÍCIOS
+                    </Link>
                 </div>
                 <div className="carrosselBeneficios">
                     <Carousel id="carouselExample" className="carousel slide" interval={2000} indicators={false} controls={false}>

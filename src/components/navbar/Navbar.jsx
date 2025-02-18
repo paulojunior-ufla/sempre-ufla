@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"; // Importa o NavLink
+import { NavLink } from "react-router-dom";
 import logoEgressos from "../../assets/logo.png";
 import logoUfla from "../../assets/LogoUflaColorida.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
