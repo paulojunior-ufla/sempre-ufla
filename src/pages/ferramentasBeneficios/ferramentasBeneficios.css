@@ -1,0 +1,182 @@
+.paginaFerramentasBeneficios{
+    background-color: #fff;
+    font-family: Montserrat;
+    /*//////////////SEÇÃO APRESENTAÇÃO//////////////*/
+    .secaoApresentacao{
+        background-image: url(../../assets/imagemApresentacaoBeneficios.png);
+        background-size: cover;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: left;
+        padding: 230px 50px 130px;
+    }
+    .secaoApresentacao h1{
+        color: #00943E;
+        font-weight: 700;
+        font-size: 60px;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .apresentacao{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 30px;
+        word-wrap: break-word;
+        font-weight: 450;
+    }
+    /*//////////////SEÇÃO BENEFÍCIOS//////////////*/
+    .secaoBeneficios {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding: 80px 100px;
+    }
+
+    .secaoBeneficios h1 {
+        color: #00943E;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .explicacao {
+        margin-top: 35px;
+        color: #004B80;
+        font-size: 20px;
+    }
+
+    .infosBeneficios {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        width: 100%;
+        margin-top: 80px;
+        text-align: left;
+    }
+    .infosBeneficios h3{
+        color: #00943E;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .infosBeneficios p{
+        color: #004B80;
+        font-size: 16px;
+    }
+    .iconeCelular{
+        width: 75px;
+    }
+    .iconeEmail{
+        width: 90px;
+    }
+    .iconeFerramentas{
+        width: 100px;
+    }
+    .iconeWifi{
+        margin-bottom: 8px;
+        width: 75px;
+    }
+    /*//////////////SEÇÃO ENTRE JÁ//////////////*/
+    .secaoEntreja{
+        background-color: #00943E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 120px 20px;
+    }
+    .secaoEntreja h1{
+        color: #fff;
+        font-weight: 700;
+    }
+    .secaoEntreja button{
+        border: none;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 60px;
+        background-color: #fff;
+        color: #bdbdbd;
+        font-weight: 700;
+        transition: 0.2s;
+    }
+    .secaoEntreja button:hover{
+        color: #004B80;
+    }
+        /*//////////////RESPONSIVIDADE//////////////*/
+    @media (max-width: 768px){
+        .secaoBeneficios {
+            padding: 80px 70px;
+            text-align: left;
+        }
+        .infosBeneficios {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+    @media (max-width: 448px){
+        .secaoApresentacao{
+            padding: 200px 50px 100px;
+        }
+        .secaoApresentacao h1{
+            font-size: 40px;
+        }
+        .apresentacao{
+            font-size: 20px;
+        }
+        .secaoBeneficios{
+            padding: 50px 55px;
+        }
+        .secaoBeneficios h1 {
+            font-size: 30px;
+        }
+        .explicacao {
+            font-size: 15px;
+        }
+        .infosBeneficios h3{
+            font-size: 16px;
+        }
+        .infosBeneficios p{
+            font-size: 13px;
+        }
+    }
+    @media (max-width: 375px){
+        .secaoApresentacao{
+            padding: 200px 30px 100px;
+        }
+        .secaoApresentacao h1{
+            font-size: 30px;
+        }
+        .apresentacao{
+            font-size: 16px;
+        }
+        .secaoBeneficios{
+            padding: 50px 40px;
+        }
+        .infosBeneficios {
+            margin-top: 50px;
+        }
+        .iconeCelular{
+            width: 55px;
+        }
+        .iconeEmail{
+            width: 70px;
+        }
+        .iconeFerramentas{
+            width: 75px;
+        }
+        .iconeWifi{
+            margin-bottom: 8px;
+            width: 55px;
+        }
+    }
+
+}

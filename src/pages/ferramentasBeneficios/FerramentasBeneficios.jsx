@@ -6,6 +6,7 @@ import iconeFerramentas from "../../assets/iconeFerramentasAzul.png"
 import iconeEmail from "../../assets/iconeEmailAzul.png"
 import iconeWifi from "../../assets/iconeWifiAzul.png"
 import imagemApresentacao from "../../assets/imagemApresentacaoBeneficios.png"
+import "./ferramentasBeneficios.css"
 
 function FerramentasBeneficios(){
 
@@ -23,14 +24,14 @@ function FerramentasBeneficios(){
             </div>
             <div className="secaoBeneficios">
                 <h1>Benefícios para quem contribui conosco</h1>
-                <p>
+                <p className="explicacao">
                 Manter a conexão com os egressos e acompanhar sua trajetória 
                 profissional é essencial para o crescimento dos cursos da UFLA. 
                 Por isso, convidamos você a se cadastrar na nossa plataforma de 
                 egressos de forma voluntária. Ao se cadastrar, você tem acesso a 
                 diversas ferramentas e benefícios exclusivos. Confira abaixo o que oferecemos:
                 </p>
-                <div className="InfosBeneficios">
+                <div className="infosBeneficios">
                     <div className="biblioteca">
                         <img src={iconeCelular} alt="Icone de um celular" className="iconeCelular"/>
                         <h3>Acesso ao acervo virtual da biblioteca</h3>
@@ -68,14 +69,14 @@ function FerramentasBeneficios(){
                         </p>
                     </div>
                 </div>
-                <div className="secaoEntreja">
-                    <h1>Quer ter acessos a todos esses benéficios?</h1>
-                    <h1>Entre já!</h1>
-                    <button className="entrar">Entrar</button>
-                </div>
-                <div className="rodape">
-                    <Rodape/>
-                </div>
+            </div>
+            <div className="secaoEntreja">
+                <h1>Quer ter acesso a todos esses benéficios?</h1>
+                <h1>Entre já!</h1>
+                <button className="entrar">Entrar</button>
+            </div>
+            <div className="rodape">
+                <Rodape/>
             </div>
         </div>
     )
