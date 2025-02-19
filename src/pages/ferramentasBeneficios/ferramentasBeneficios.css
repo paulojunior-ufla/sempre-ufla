@@ -103,12 +103,12 @@
         font-size: 30px;
         margin-top: 60px;
         background-color: #fff;
-        color: #bdbdbd;
+        color: #004B80;
         font-weight: 700;
         transition: 0.2s;
     }
     .secaoEntreja button:hover{
-        color: #004B80;
+        transform: scale(1.08);
     }
         /*//////////////RESPONSIVIDADE//////////////*/
     @media (max-width: 768px){
