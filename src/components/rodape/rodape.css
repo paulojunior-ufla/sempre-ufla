@@ -57,7 +57,7 @@
 .creditos {
     color: #004B80;
     position: absolute;
-    bottom: 0px;
+    bottom: -15px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 13px;
@@ -104,7 +104,7 @@
         background-color: #00943E;
     }
     .creditos{
-        margin-bottom: -15px;
+        margin-bottom: 0px;
         font-size: 2.2vw;
     }
     

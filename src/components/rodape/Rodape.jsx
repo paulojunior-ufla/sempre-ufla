@@ -1,4 +1,5 @@
 import "./rodape.css"
+import { Link } from "react-router-dom";
 
 function Rodape(){
 
@@ -12,14 +13,15 @@ function Rodape(){
                 </div>
                 <div className="explorar">
                     <h3>Explorar</h3>
-                    <a href="/ferramentas-e-beneficios">Ferramentas e benéficios</a>
-                    <a href="#">Dúvidas</a>
-                    <a href="LINK DA PLATAFORMA NO SIG">Entrar</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/ferramentas-e-beneficios">Ferramentas e benéficios</Link>
+                    <Link to="/duvidas">Dúvidas</Link>
+                    <a href="https://sig.ufla.br">Entrar</a>
                 </div>
                 <div className="contato">
                     <h3>Contato</h3>
-                    <p>proeec@ufla.br</p>
-                    <p> (99) 9 9999-9999</p>
+                    <p>egressos.proeec@ufla.br</p>
+                    <p>(35) 3829-1212</p>
                 </div>
                 <div className="creditos">
                     <p>Copyright &copy; 2025 Sempre UFLA <stand id='criador'>By Universidade Federal de Lavras</stand></p>

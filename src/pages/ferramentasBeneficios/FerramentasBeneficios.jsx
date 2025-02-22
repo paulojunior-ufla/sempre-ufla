@@ -73,7 +73,9 @@ function FerramentasBeneficios(){
             <div className="secaoEntreja">
                 <h1>Quer ter acesso a todos esses benéficios?</h1>
                 <h1>Entre já!</h1>
-                <button className="entrar">Entrar</button>
+                <a href="https://sig.ufla.br" target="_blank" rel="noopener noreferrer">
+                    <button className="entrar">Entrar</button>
+                </a>
             </div>
             <div className="rodape">
                 <Rodape/>

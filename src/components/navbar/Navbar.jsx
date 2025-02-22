@@ -9,11 +9,10 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" target="_blank" rel="noopener noreferrer" href="https://ufla.br/" >
                     <img className="navbar-brand" src={logoUfla} alt="Logo da UFLA colorida" />
                     <img className="navbar-brand" src={logoEgressos} alt="Logo da Sempre Ufla" />
                 </a>
-
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -26,8 +25,10 @@ function Navbar() {
                         <NavLink to="/ferramentas-e-beneficios" className="nav-item nav-link" activeClassName="active">
                             FERRAMENTAS E BENEFÍCIOS
                         </NavLink>
-                        <a className="nav-item nav-link" href="#">DÚVIDAS</a>
-                        <a className="nav-item nav-link" href="#">ENTRAR</a>
+                        <NavLink to="/duvidas" className="nav-item nav-link" activeClassName="active">
+                            DÚVIDAS
+                        </NavLink>
+                        <a className="nav-item nav-link" href="https://sig.ufla.br">ENTRAR</a>
                     </div>
                 </div>
             </div>
