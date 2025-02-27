@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: column;
     font-weight: 700;
+    white-space: nowrap;
 }
 .redesSociais h3, .contato h3{
     padding-bottom: 10px;
@@ -44,11 +45,12 @@
     transform: scale(1.02);
 }
 .redesSociais{
-    text-align: right;
+    text-align: left;
     margin-left: 70px;
 }
 .explorar{
     text-align: center;
+    white-space: nowrap;
 }
 .contato{
     text-align: left;
@@ -68,7 +70,7 @@
         display: none;
     }
 }
-@media (max-width:540px){
+@media (max-width:596px){
     .rodape{
         overflow: hidden;
         height: auto;
@@ -109,4 +111,3 @@
     }
     
 }
-

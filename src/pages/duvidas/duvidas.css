@@ -30,7 +30,7 @@
         margin-bottom: 70px;
     }
     .accordion-item {
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         border-radius: 10px;
     }
     .accordion-button {
@@ -40,8 +40,8 @@
         font-weight: 650;
         font-size: 15px;
         display: flex;
-        align-items: center; /* Alinha o conteúdo verticalmente no centro */
-        justify-content: flex-start; /* Alinha o conteúdo horizontalmente à esquerda */
+        align-items: center;
+        justify-content: flex-start;
         padding: 20px;
         transition: 0.7s;
     }

@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Carousel } from "react-bootstrap";
 import logoUflaBranco from "../../assets/LogoUflaMonocromatica.png"
-import fotoCapelos from "../../assets/fotodecapelos.png"
 import iconeInfos from "../../assets/iconeInfosVerde.svg"
 import iconeForm from "../../assets/iconeFormVerde.svg"
 import iconeEmail from "../../assets/iconeEmailVerde.svg"

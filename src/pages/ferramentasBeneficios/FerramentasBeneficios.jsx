@@ -5,7 +5,6 @@ import iconeCelular from "../../assets/iconeCelularAzul.png"
 import iconeFerramentas from "../../assets/iconeFerramentasAzul.png"
 import iconeEmail from "../../assets/iconeEmailAzul.png"
 import iconeWifi from "../../assets/iconeWifiAzul.png"
-import imagemApresentacao from "../../assets/imagemApresentacaoBeneficios.png"
 import "./ferramentasBeneficios.css"
 
 function FerramentasBeneficios(){
