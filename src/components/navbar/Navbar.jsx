@@ -28,7 +28,7 @@ function Navbar() {
                         <NavLink to="/duvidas" className="nav-item nav-link" activeClassName="active">
                             DÚVIDAS
                         </NavLink>
-                        <a className="nav-item nav-link" href="https://sig.ufla.br">ENTRAR</a>
+                        <a className="nav-item nav-link" href="https://sig.ufla.br" target="_blank" rel="noopener noreferrer">ENTRAR</a>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ function Rodape(){
                     <Link to="/">Home</Link>
                     <Link to="/ferramentas-e-beneficios">Ferramentas e benéficios</Link>
                     <Link to="/duvidas">Dúvidas</Link>
-                    <a href="https://sig.ufla.br">Entrar</a>
+                    <a href="https://sig.ufla.br" target="_blank" rel="noopener noreferrer">Entrar</a>
                 </div>
                 <div className="contato">
                     <h3>Contato</h3>

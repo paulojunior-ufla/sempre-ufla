@@ -117,7 +117,7 @@ function Home(){
                         <button className="entrar">Entrar</button>
                     </a>
                     <Link to="/duvidas">
-                        <button className="duvidas">DÚVIDAS?</button>
+                        <button className="duvidas">Dúvidas?</button>
                     </Link>
                 </div>
             </div>
