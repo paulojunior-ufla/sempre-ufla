@@ -27,8 +27,8 @@ function FerramentasBeneficios(){
                 Manter a conexão com os egressos e acompanhar sua trajetória 
                 profissional é essencial para o crescimento dos cursos da UFLA. 
                 Por isso, convidamos você a se cadastrar na nossa plataforma de 
-                egressos de forma voluntária. Ao se cadastrar, você tem acesso a 
-                diversas ferramentas e benefícios exclusivos. Confira abaixo o que oferecemos:
+                egressos de forma voluntária. Ao se cadastrar, você poderá, em breve, 
+                acessar diversas ferramentas e benefícios exclusivos. Confira abaixo o que iremos oferecer:
                 </p>
                 <div className="infosBeneficios">
                     <div className="biblioteca">
@@ -68,9 +68,10 @@ function FerramentasBeneficios(){
                         </p>
                     </div>
                 </div>
+                <p className="aviso"> Ao se cadastrar agora, os benefícios ainda não estarão disponíveis, você poderá aproveita-los em breve. </p>
             </div>
             <div className="secaoEntreja">
-                <h1>Quer ter acesso a todos esses benéficios?</h1>
+                <h1>Quer garantir o acesso a todos esses benefícios?</h1>
                 <h1>Entre já!</h1>
                 <a href="https://sig.ufla.br" target="_blank" rel="noopener noreferrer">
                     <button className="entrar">Entrar</button>

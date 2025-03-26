@@ -32,10 +32,10 @@ function Home(){
             </div>
             <div className="secaoBeneficios">
                 <div className="explicacao">
-                    <h2 className="tituloFerramentas">Ferramentas e benefícios</h2>
+                    <h2 className="tituloFerramentas">Ferramentas e benefícios <br/> (Em breve)</h2>
                     <p className="explicacaoBeneficios">
-                        Ao cadastrar em nossa plataforma aproveite os benefícios exclusivos para egressos,
-                        como acesso a recursos da universidade e ferramentas que facilitam sua jornada.
+                    Ao se cadastrar na Plataforma de Egressos, você poderá em breve acessar benefícios 
+                    exclusivos para graduados da UFLA que permanecem conectados à universidade.
                     </p>
                     <Link to="/ferramentas-e-beneficios" className="pageBeneficios">
                         CONFIRA AS FERRAMENTAS E BENEFÍCIOS

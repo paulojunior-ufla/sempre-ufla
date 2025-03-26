@@ -34,7 +34,7 @@
         justify-items: center;
         align-items: center;
         text-align: center;
-        padding: 80px 100px;
+        padding: 90px 100px 30px 100px;
     }
 
     .secaoBeneficios h1 {
@@ -80,6 +80,11 @@
     .iconeWifi{
         margin-bottom: 8px;
         width: 75px;
+    }
+    .aviso{
+        margin-top: 50px;
+        color: #ff0000;
+        font-size: 12px;
     }
     /*//////////////SEÇÃO ENTRE JÁ//////////////*/
     .secaoEntreja{
@@ -146,6 +151,10 @@
         }
         .infosBeneficios p{
             font-size: 13px;
+        }
+        .aviso{
+            margin-top: 10px;
+            font-size: 9px;
         }
     }
     @media (max-width: 375px){
