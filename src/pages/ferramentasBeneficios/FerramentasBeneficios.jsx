@@ -15,10 +15,10 @@ function FerramentasBeneficios(){
                 <Navbar/>
             </div>
             <div className="secaoApresentacao">
-                <h1>Ferramentas e benefícios</h1>
+                <h1>Ferramentas e benefícios (Em breve)</h1>
                 <p className="apresentacao">
-                Exclusivo para graduados da UFLA que permanecem conectados à 
-                universidade ao se registrarem na Plataforma de Egressos.
+                Exclusivo para graduados da UFLA que permanecem conectados à universidade 
+                ao se registrarem na Plataforma de Egressos, com benefícios em breve.
                 </p>
             </div>
             <div className="secaoBeneficios">
@@ -68,7 +68,6 @@ function FerramentasBeneficios(){
                         </p>
                     </div>
                 </div>
-                <p className="aviso"> Ao se cadastrar agora, os benefícios ainda não estarão disponíveis, você poderá aproveita-los em breve. </p>
             </div>
             <div className="secaoEntreja">
                 <h1>Quer garantir o acesso a todos esses benefícios?</h1>
