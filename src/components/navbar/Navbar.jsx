@@ -9,10 +9,14 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" target="_blank" rel="noopener noreferrer" href="https://ufla.br/" >
-                    <img className="navbar-brand" src={logoEgressos} alt="Logo da Sempre Ufla" />
-                    <img className="navbar-brand" src={logoUfla} alt="Logo da UFLA colorida" />
-                </a>
+                <div className="logo-container align-items-center">
+                    <a className="navbar-brand" target="_blank" rel="noopener noreferrer" href="https://sempre.ufla.br/">
+                        <img className="navbar-brand" src={logoEgressos} alt="Logo da Sempre Ufla" />
+                    </a>
+                    <a className="navbar-brand" target="_blank" rel="noopener noreferrer" href="https://ufla.br/">
+                        <img className="navbar-brand" src={logoUfla} alt="Logo da UFLA colorida" />
+                    </a>
+                </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
                     <span className="navbar-toggler-icon"></span>
                 </button>

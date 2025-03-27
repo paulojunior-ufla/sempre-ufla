@@ -9,41 +9,61 @@
     z-index: 10;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
-    .navbar-brand{
-        width: 8rem;
-        height: auto;
-        margin-right: 20px;
-        margin-left: 10px;
+.navbar-brand{
+    width: 8rem;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 10px;
     }
 
-    .navbar-light .navbar-nav .nav-link{
-        color: #004B80;
-        font-weight: 450;
-        font-size: 16px;
-        padding: 10px;
-        transition: 0.2s;
+.navbar-light .navbar-nav .nav-link{
+    color: #004B80;
+    font-weight: 450;
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.2s;
+}
+.logo-container a {
+    margin-right: -10px;
+}
+.navbar-light .navbar-nav .nav-link:last-child{
+    color: #00943E;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #858d91;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #004B80;
+}
+@media(max-width: 992px){
+    .navbar-brand{
+        margin-left: 2px;
     }
-    .navbar-light .navbar-nav .nav-link:last-child{
-        color: #00943E;
+    .navbar-brand img{
+        width: 4.5rem;
+        height: auto;
     }
-    .navbar-light .navbar-nav .nav-link:hover{
-        color: #858d91;
+    .logo-container a {
+        margin-right: -10px;
     }
-    .navbar-light .navbar-nav .nav-link.active{
-        color: #004B80;
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #f8f9fa;
+        text-align: center;  
     }
-    @media(max-width: 992px){
-        .navbar-brand img{
-            width: 4rem;
-            height: auto;
-        }
-        .navbar-collapse {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 100%;
-            background-color: #f8f9fa;
-            text-align: center;  
-        }
-             
+}
+@media(max-width: 375px){
+    .navbar-brand{
+        margin-left: 0px;
     }
+    .navbar-brand img{
+        width: 4rem;
+        height: auto;
+    }
+    .logo-container a {
+        margin-right: -15px;
+    }
+}
