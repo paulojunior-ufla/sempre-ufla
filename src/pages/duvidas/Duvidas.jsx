@@ -24,7 +24,8 @@ function Duvidas(){
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse">
                             <div class="accordion-body">
-                                Você pode acessar a plataforma de egressos PLAEG por meio do sistema acadêmico da UFLA (SIG), disponível em https://sig.ufla.br/. Para utilizar todos os recursos, basta fazer login com suas credenciais e acessar o menu “Perfil do Egresso”.                        
+                                Você pode acessar a plataforma de egressos PLAEG por meio do sistema acadêmico da UFLA (SIG), disponível em <a href="https://sig.ufla.br/" target="_blank">https://sig.ufla.br/</a>. Para utilizar todos os recursos, basta fazer login com suas credenciais e acessar o menu “Perfil do Egresso”.       
+                                Ficou com dúvida? Temos um tutorial <a href="https://kb.ufla.br/books/manual-de-sistemas-o3k/page/modulo-egressos-informacoes-gerais" target="_blank">disponível</a> para te ajudar!
                             </div>
                         </div>
                     </div>

@@ -27,7 +27,7 @@ function Navbar() {
                             HOME
                         </NavLink>
                         <NavLink to="/ferramentas-e-beneficios" className="nav-item nav-link" activeClassName="active">
-                            FERRAMENTAS E BENEFÍCIOS
+                            BENEFÍCIOS  E VANTAGENS
                         </NavLink>
                         <NavLink to="/duvidas" className="nav-item nav-link" activeClassName="active">
                             DÚVIDAS

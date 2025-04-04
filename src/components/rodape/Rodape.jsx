@@ -8,13 +8,12 @@ function Rodape(){
             <div className="informacoes">
                 <div className='redesSociais'>
                     <h3>Nos siga</h3>
-                    <p>@proeecufla</p>
                     <p>@uflabr</p>
                 </div>
                 <div className="explorar">
                     <h3>Explorar</h3>
                     <Link to="/">Home</Link>
-                    <Link to="/ferramentas-e-beneficios">Ferramentas e benéficios</Link>
+                    <Link to="/ferramentas-e-beneficios">Benéficios e vantagens</Link>
                     <Link to="/duvidas">Dúvidas</Link>
                     <a href="https://sig.ufla.br" target="_blank" rel="noopener noreferrer">Entrar</a>
                 </div>

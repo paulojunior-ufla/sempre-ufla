@@ -24,7 +24,7 @@ function Home(){
                 <img id="logoUfla" src={logoUflaBranco} alt="Logo da UFLA na cor branca" />
                 <p className="fraseDeBoasVindas">
                     <span className="bemVindo">Bem-vindo(a)</span> à nossa plataforma de egressos! <br />
-                    Conecte-se, inspire e continue fazendo parte da nossa história.
+                    Conecte-se e continue fazendo parte da nossa história.
                 </p>
                 <a href="https://sig.ufla.br" target="_blank" rel="noopener noreferrer">
                     <button className="entrar">Entrar</button>
@@ -32,17 +32,17 @@ function Home(){
             </div>
             <div className="secaoBeneficios">
                 <div className="explicacao">
-                    <h2 className="tituloFerramentas">Ferramentas e benefícios <br/> (Em breve)</h2>
+                    <h2 className="tituloFerramentas">Benefícios e vantagens <br/> (em breve)</h2>
                     <p className="explicacaoBeneficios">
-                    Ao se cadastrar na Plataforma de Egressos, você poderá em breve acessar benefícios 
-                    exclusivos para graduados da UFLA que permanecem conectados à universidade.
+                    Ao se cadastrar na Plataforma de Egressos da UFLA, em breve, você<br/>
+                    poderá acessar benefícios e vantagens exclusivos.
                     </p>
                     <Link to="/ferramentas-e-beneficios" className="pageBeneficios">
-                        CONFIRA AS FERRAMENTAS E BENEFÍCIOS
+                        QUERO SABER MAIS...
                     </Link>
                 </div>
                 <div className="carrosselBeneficios">
-                    <Carousel id="carouselExample" className="carousel slide" interval={2000} indicators={false} controls={false}>
+                    <Carousel id="carouselExample" className="carousel slide" interval={2500} indicators={false} controls={false}>
                         <Carousel.Item>
                             <div className="card">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -90,23 +90,22 @@ function Home(){
                 <h1>Como você ajuda a <br /> Universidade?</h1>
                 <div className="perfil">
                     <img src={iconeInfos} alt="Icone de relatório" className="iconeInfos" />
-                    <p><span className="titulo">Preencha seu perfil profissional</span> <br />
-                        Compartilhe sua trajetória profissional para ajudar a UFLA a avaliar e melhorar os cursos oferecidos,
-                        além de possibilitar que novas gerações de alunos se beneficiem com as informações coletadas.
+                    <p><span className="titulo">Preenchendo seu perfil profissional</span> <br />
+                        Compartilhe sua trajetória profissional e ajude a UFLA a avaliar e a melhorar os cursos oferecidos,
+                        possibilitando que a sociedade como um todo seja beneficiada.
                     </p>
                 </div>
                 <div className="questionario">
                     <p>
-                        <span className="titulo">Participe de breves questionários</span><br />Sua experiência no mercado de trabalho é fundamental para aprimorar os programas de graduação e pós-graduação da UFLA,
-                        colaborando com a evolução constante do ensino.
+                        <span className="titulo">Respondendo a breves questionários</span><br />Sua experiência no mercado de trabalho é fundamental para aprimorar os cursos de graduação e pós-graduação da UFLA,
+                        colaborando com a melhoria constante do ensino.
                     </p>
                     <img src={iconeForm} alt="Icone de prancheta" className="iconeForm" />
                 </div>
                 <div className="email">
                     <img src={iconeEmail} alt="Icone de Email" className="iconeEmail" />
-                    <p><span className="titulo">Mantenha seu contato atualizado</span><br />
-                        Ao se cadastrar, seu e-mail será automaticamente atualizado,
-                        garantindo que você receba todas as informações e novidades importantes da universidade de forma ágil e direta.
+                    <p><span className="titulo">Mantendo suas informações de contato atualizadas</span><br />
+                        Ao se cadastrar e manter seus dados atualizados, você recebará informações e novidades importantes da Universidade de forma ágil e direta.
                     </p>
                 </div>
             </div>

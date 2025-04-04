@@ -15,21 +15,14 @@ function FerramentasBeneficios(){
                 <Navbar/>
             </div>
             <div className="secaoApresentacao">
-                <h1>Ferramentas e benefícios (Em breve)</h1>
+                <h1>Benefícios e vantagens (em breve)</h1>
                 <p className="apresentacao">
-                Exclusivo para graduados da UFLA que permanecem conectados à universidade 
-                ao se registrarem na Plataforma de Egressos, com benefícios em breve.
+                Exclusivo para egressos(as) que permanecem conectados à UFLA 
+                por meio da Plataforma de Egressos e mantêm seus dados atualizados.
                 </p>
             </div>
             <div className="secaoBeneficios">
-                <h1>Benefícios para quem contribui conosco</h1>
-                <p className="explicacao">
-                Manter a conexão com os egressos e acompanhar sua trajetória 
-                profissional é essencial para o crescimento dos cursos da UFLA. 
-                Por isso, convidamos você a se cadastrar na nossa plataforma de 
-                egressos de forma voluntária. Ao se cadastrar, você poderá, em breve, 
-                acessar diversas ferramentas e benefícios exclusivos. Confira abaixo o que iremos oferecer:
-                </p>
+                <h1>Confira os benefícios e vantagens</h1>
                 <div className="infosBeneficios">
                     <div className="biblioteca">
                         <img src={iconeCelular} alt="Icone de um celular" className="iconeCelular"/>
@@ -46,7 +39,7 @@ function FerramentasBeneficios(){
                         <p className="explicacaoEmail">
                         Um e-mail personalizado @egressos.ufla.br, que comprova sua 
                         conexão com a universidade, acesso a serviços e ferramentas 
-                        da UFLA, e acesso a atualizações da Universidade.
+                        da UFLA.
                         </p>
                     </div>
                     <div className="ferramentas">
@@ -70,8 +63,7 @@ function FerramentasBeneficios(){
                 </div>
             </div>
             <div className="secaoEntreja">
-                <h1>Quer garantir o acesso a todos esses benefícios?</h1>
-                <h1>Entre já!</h1>
+                <h1>Em breve, você terá acesso a todos esses benefícios...</h1>
                 <a href="https://sig.ufla.br" target="_blank" rel="noopener noreferrer">
                     <button className="entrar">Entrar</button>
                 </a>

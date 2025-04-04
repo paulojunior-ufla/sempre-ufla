@@ -1,27 +1,29 @@
-.paginaHome{
+.paginaHome {
     font-family: Montserrat;
-    
+
     /*///////////SEÇÃO BOAS VINDAS/////////////*/
-    .secaoBoasVindas{
+    .secaoBoasVindas {
         background-image: url(../../assets/fotodecapelos.png);
         background-size: cover;
         margin-left: -5px;
         height: 650px;
-        position:relative;
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    #logoUfla{
+
+    #logoUfla {
         margin-top: 10vh;
         justify-content: center;
         align-items: center;
         width: 300px;
         height: auto;
     }
-    .fraseDeBoasVindas{
+
+    .fraseDeBoasVindas {
         margin-top: 30px;
         color: #fff;
         font-size: 34px;
@@ -30,11 +32,13 @@
         margin-left: min(3px);
         font-weight: 450;
     }
-    .bemVindo{
+
+    .bemVindo {
         font-size: 45px;
         font-weight: 600;
     }
-    .secaoBoasVindas .entrar{
+
+    .secaoBoasVindas .entrar {
         margin-top: 30px;
         width: 150px;
         height: 55px;
@@ -46,64 +50,75 @@
         transition: 0.4s;
         cursor: pointer;
     }
-    .entrar:hover{
+
+    .entrar:hover {
         transform: scale(1.1);
     }
-/*///////////SEÇÃO FERRAMENTAS E BENEFÍCIOS/////////////*/
-    .secaoBeneficios{
+
+    /*///////////SEÇÃO FERRAMENTAS E BENEFÍCIOS/////////////*/
+    .secaoBeneficios {
         background-color: #fff;
-        position:relative;
+        position: relative;
         margin-top: -10px;
         padding-top: 80px;
         padding-bottom: 80px;
         display: flex;
         justify-content: space-between;
-        box-shadow: 
-        inset 0px -5px 10px -3px rgba(0, 0, 0, 0.2),
-        inset 0px 5px 10px -3px rgba(0, 0, 0, 0.2);
+        box-shadow:
+            inset 0px -5px 10px -3px rgba(0, 0, 0, 0.2),
+            inset 0px 5px 10px -3px rgba(0, 0, 0, 0.2);
     }
-    .explicacao{
+
+    .explicacao {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 120px;
     }
-    .tituloFerramentas{
+
+    .tituloFerramentas {
         color: #00943E;
         font-weight: 700;
         font-size: 40px;
     }
-    .explicacaoBeneficios{
+
+    .explicacaoBeneficios {
         margin-top: 30px;
         font-size: 30px;
         margin-left: 30px;
     }
-    .pageBeneficios{
+
+    .pageBeneficios {
         color: #004B80;
         margin-top: 40px;
         font-size: 17px;
         text-decoration: underline;
     }
-    .pageBeneficios:hover{
+
+    .pageBeneficios:hover {
         text-decoration: none;
         font-weight: 450;
     }
-    .carrosselBeneficios{
+
+    .carrosselBeneficios {
         display: flex;
         align-items: center;
         margin-right: 120px;
         margin-left: 80px;
     }
-    .card-body h5{
+
+    .card-body h5 {
         color: #ffffff;
     }
-    .carrosselBeneficios svg{
+
+    .carrosselBeneficios svg {
         fill: #007c34;
         width: 220px;
         height: auto;
         padding: 50px;
     }
-    .card{
+
+    .card {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -112,7 +127,8 @@
         width: 250px;
         height: 350px;
     }
-    .card-body{
+
+    .card-body {
         display: flex;
         text-align: center;
         justify-content: center;
@@ -121,14 +137,15 @@
         background-color: #004B80;
         border-radius: 0px 0px 9px 9px;
     }
-    .card-body h5{
+
+    .card-body h5 {
         font-weight: 450;
         font-size: 25px;
     }
-      
-/*///////////SEÇÃO AJUDA A UNIVERSIDADE/////////////*/
 
-    .secaoAjudaUniversidade{
+    /*///////////SEÇÃO AJUDA A UNIVERSIDADE/////////////*/
+
+    .secaoAjudaUniversidade {
         padding-top: 80px;
         padding-bottom: 80px;
         background-color: #004B80;
@@ -136,23 +153,28 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color:#fff;
-        position:relative;
-        font-size:30px;
+        color: #fff;
+        position: relative;
+        font-size: 30px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
         z-index: 2;
     }
-    .secaoAjudaUniversidade h1{
+
+    .secaoAjudaUniversidade h1 {
         text-align: center;
         font-weight: 700;
         font-size: 50px;
     }
+
     .titulo {
         font-weight: 600;
-        margin-bottom: -30px; 
+        margin-bottom: -30px;
         display: block;
     }
-    .perfil, .questionario, .email {
+
+    .perfil,
+    .questionario,
+    .email {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -160,26 +182,31 @@
         margin-right: 130px;
         gap: 40px;
     }
-    .perfil, .questionario {
+
+    .perfil,
+    .questionario {
         margin-top: 75px;
         padding-bottom: 45px;
         border-bottom: 2px dotted #00943E;
     }
+
     .questionario {
         text-align: right;
         margin-top: 65px;
     }
+
     .email {
         margin-top: 65px;
-    }    
+    }
+
     /*///////////SEÇÃO INTEGRAR/////////////*/
-    .secaoIntegrar{
+    .secaoIntegrar {
         background-image: url("../../assets/imagemIntegrar.png");
         background-size: cover;
         margin-left: -5px;
         margin-top: -40px;
         height: 550px;
-        position:relative;
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -187,19 +214,23 @@
         text-align: center;
         z-index: 1;
     }
-    .secaoIntegrar h1{
+
+    .secaoIntegrar h1 {
         color: #fff;
         font-size: 50px;
         font-weight: 600;
         margin-right: min(20px);
         margin-left: min(20px);
     }
-    .botoes{
+
+    .botoes {
         display: flex;
         margin-top: 80px;
         gap: 50px;
     }
-    .botoes .entrar, .duvidas{
+
+    .botoes .entrar,
+    .duvidas {
         cursor: pointer;
         font-size: 20px;
         font-weight: 500;
@@ -208,17 +239,21 @@
         transition: 0.4s;
         height: 55px;
     }
-    .botoes .entrar{
+
+    .botoes .entrar {
         background-color: #004B80;
         color: #fff;
         width: 150px;
     }
-    .botoes .duvidas{
+
+    .botoes .duvidas {
         background-color: #fff;
         color: #004B80;
         width: 170px;
     }
-    .botoes .entrar:hover,.duvidas:hover{
+
+    .botoes .entrar:hover,
+    .duvidas:hover {
         transform: scale(1.1);
     }
 
@@ -230,7 +265,7 @@
             height: min(750px);
         }
     }
-    
+
     @media (max-width: 783px) {
         .secaoBeneficios {
             display: flex;
@@ -238,18 +273,19 @@
             justify-content: center;
             align-items: start;
         }
+
         .explicacao {
             margin-left: 15px;
             margin-right: 15px;
             text-align: left;
         }
-        
+
         .explicacaoBeneficios {
             text-align: left;
             margin-left: initial;
         }
-        
-        .pageBeneficios{
+
+        .pageBeneficios {
             font-size: 12px;
         }
 
@@ -260,36 +296,41 @@
             justify-content: center;
             align-items: center;
         }
-        
+
         .card {
             width: 300px;
         }
+
         .secaoAjudaUniversidade h1 {
             text-align: left;
             margin-left: 10px;
             margin-right: 10px;
         }
+
         .secaoAjudaUniversidade img {
             width: 150px;
         }
-        
-        .perfil, .email {
+
+        .perfil,
+        .email {
             display: flex;
             flex-direction: column;
         }
-        
+
         .questionario {
             display: flex;
             flex-direction: column-reverse;
         }
-        
-        .perfil, .email, .questionario {
+
+        .perfil,
+        .email,
+        .questionario {
             margin-left: 50px;
             margin-right: 50px;
             text-align: justify;
         }
     }
-    
+
     @media (max-width: 425px) {
         .secaoBoasVindas {
             display: flex;
@@ -298,79 +339,83 @@
             text-align: left;
             padding: 20px;
         }
-        
+
         .fraseDeBoasVindas {
             font-size: 25px;
         }
-        
+
         .bemVindo {
             font-size: 35px;
         }
-        
+
         .secaoAjudaUniversidade h1 {
             font-size: 40px;
         }
-        
-        .perfil, .questionario, .email {
+
+        .perfil,
+        .questionario,
+        .email {
             display: flex;
             align-items: start;
         }
-        
+
         .secaoIntegrar {
             padding: 30px;
             align-items: start;
         }
-        
+
         .secaoIntegrar h1 {
             margin-left: initial;
             text-align: left;
             font-size: 40px;
         }
-        
+
         .botoes {
             display: flex;
             flex-direction: column;
             gap: 20px;
         }
-        
+
         .tituloFerramentas {
             font-size: 40px;
         }
-        
+
         .explicacaoBeneficios {
             margin-left: 10px;
             font-size: 20px;
         }
-        
+
         .secaoAjudaUniversidade {
             font-size: 20px;
         }
-        
+
         .secaoAjudaUniversidade img {
             width: 100px;
         }
     }
+
     @media (max-width: 416px) {
         .secaoAjudaUniversidade h1 {
             font-size: 30px;
         }
     }
+
     @media (max-width: 395px) {
         .secaoBoasVindas {
             height: min(700px);
         }
-        
+
         .card {
             width: 200px;
         }
     }
-    
+
     @media (max-width: 308px) {
         .secaoBoasVindas {
             height: 100vh;
             height: min(800px);
         }
-        
+
         #logoUfla {
             width: 150px;
             height: auto;
@@ -382,4 +427,4 @@
             height: min(1000px);
         }
     }
-}    
+}
