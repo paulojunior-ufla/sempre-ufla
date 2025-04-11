@@ -24,8 +24,15 @@ function Duvidas(){
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse">
                             <div class="accordion-body">
-                                Você pode acessar a plataforma de egressos PLAEG por meio do sistema acadêmico da UFLA (SIG), disponível em <a href="https://sig.ufla.br/" target="_blank">https://sig.ufla.br/</a>. Para utilizar todos os recursos, basta fazer login com suas credenciais e acessar o menu “Perfil do Egresso”.       
-                                Ficou com dúvida? Temos um tutorial <a href="https://kb.ufla.br/books/manual-de-sistemas-o3k/page/modulo-egressos-informacoes-gerais" target="_blank">disponível</a> para te ajudar!
+                                O Módulo de Egressos do SIG-UFLA foi criado para fortalecer nosso vínculo, conhecer sua jornada profissional e oferecer benefícios exclusivos. 
+                                Sabemos que o acesso ao sistema pode gerar dúvidas, por isso preparamos um passo a passo simples para ajudá-lo(a): <br />
+                                <br />1. Se você lembra do seu login (usuário) do SIG-UFLA: Recupere sua senha <a href="https://sig.ufla.br/modulos/login/nova_senha.php" target="_blank">aqui.</a> Informe seu login. 
+                                O sistema enviará as instruções para recuperar sua senha para o e-mail alternativo cadastrado durante sua graduação/pós-graduação.<br />
+                                <br />2. Se você não lembra do seu login: Recupere seu usuário <a href="https://sig.ufla.br/modulos/login/recuperar_login.php" target="_blank">aqui.</a> Informe seu CPF e data de nascimento. O login será enviado para o e-mail alternativo cadastrado durante sua graduação/pós-graduação.<br />
+                                <br />3. Se não conseguir recuperar pelo e-mail alternativo: Preencha o <a href="https://docs.google.com/forms/d/e/1FAIpQLSevx01rXMpbYANT6urpSSth1fkKgFPuvKskXM0tzgUgvkvC0w/viewform?usp=header" target="_blank">formulário disponível aqui</a>.
+                                Nossa equipe fará a liberação manual do seu acesso e entrará em contato em até 7 dias úteis.<br />
+
+                                <br />Após fazer login, acesse o menu "Perfil do Egresso" para utilizar todos os recursos.
                             </div>
                         </div>
                     </div>
