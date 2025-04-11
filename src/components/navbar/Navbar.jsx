@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <div className="logo-container align-items-center">
-                    <a className="navbar-brand" target="_blank" rel="noopener noreferrer" href="https://sempre.ufla.br/">
+                    <a className="navbar-brand"  href="https://sempre.ufla.br/">
                         <img className="navbar-brand" src={logoEgressos} alt="Logo da Sempre Ufla" />
                     </a>
                     <a className="navbar-brand" target="_blank" rel="noopener noreferrer" href="https://ufla.br/">
