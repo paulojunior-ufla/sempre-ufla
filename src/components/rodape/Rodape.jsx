@@ -9,6 +9,7 @@ function Rodape(){
                 <div className='redesSociais'>
                     <h3>Nos siga</h3>
                     <p>@uflabr</p>
+                    <p>@sempreufla</p>
                 </div>
                 <div className="explorar">
                     <h3>Explorar</h3>
