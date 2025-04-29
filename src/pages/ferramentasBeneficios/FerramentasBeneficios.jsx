@@ -5,6 +5,7 @@ import iconeCelular from "../../assets/iconeCelularAzul.png"
 import iconeFerramentas from "../../assets/iconeFerramentasAzul.png"
 import iconeEmail from "../../assets/iconeEmailAzul.png"
 import iconeWifi from "../../assets/iconeWifiAzul.png"
+import iconeTurma from "../../assets/iconeTurma.png"
 import "./ferramentasBeneficios.css"
 
 function FerramentasBeneficios(){
@@ -58,6 +59,15 @@ function FerramentasBeneficios(){
                         Você terá acesso ao Wi-Fi da UFLA, garantindo conectividade rápida
                         e segura em todo o campus, facilitando o acesso a recursos online 
                         e a comunicação com a universidade de maneira eficiente.
+                        </p>
+                    </div>
+                    <div className="turma">
+                        <img src={iconeTurma} alt="Icone de duas pessoas com uma lupa." className="iconeTurma" />
+                        <h3>Encontre seus colegas</h3>
+                        <p className="explicacaoTurma">
+                        Tenha a oportunidade de localizar e se conectar com ex-colegas de curso, 
+                        promovendo networking, atualização profissional e fortalecimento dos vínculos 
+                        com a comunidade acadêmica da UFLA.
                         </p>
                     </div>
                 </div>
